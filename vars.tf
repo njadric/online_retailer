@@ -6,5 +6,5 @@ variable "REGION" {
 }
 
 variable "ENVIRONMENT" {
-  default = "${terraform.workspace}"
+  default = "TEST"
 }
